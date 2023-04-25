@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'de.hhu.propra'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '17'
+
+application {
+    mainClass = 'de.hhu.propra.streams.Lambada'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
